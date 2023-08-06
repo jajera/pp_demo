@@ -1,5 +1,13 @@
 # pp_demo
 
+pdk new module pp_demo
+cd pp_demo/
+pdk new module pp_demo
+pdk new class pp_demo
+pdk new class install
+pdk new class config
+pdk test unit --parallel
+
 Welcome to your new module. A short overview of the generated parts can be found
 in the [PDK documentation][1].
 
